@@ -16,6 +16,7 @@ body{
     margin: 100px auto 0;
     padding: 40px 35px;
     border-radius: 20px;
+    position: relative;
 
 }
 .search{
@@ -94,5 +95,22 @@ body{
 
 }
 
+.gitlog a{
+    text-decoration: none;
+    color: #222;
+    position: absolute;
+    top: 5px;
+    left:10px;
+    cursor: pointer;
+    background-color: #22222223;
+    width: 20px;
+    border-radius: 4px;
+}
+.gitlog a:hover{
+    background: transparent;
+    top: 0px;
+}
+
+ 
 
 
